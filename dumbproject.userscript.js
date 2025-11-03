@@ -922,8 +922,8 @@ function onload() {
 
     // Write message in the console
     function consoleMessage() {
-        setTimeout(console.log.bind(console, "%cSomtoday Mod is geactiveerd!", "color:#0067c2;font-weight:bold;font-family:Arial;font-size:26px;"));
-        setTimeout(console.log.bind(console, "%cGeniet van je betere versie van Somtoday.\n\n© Jona Zwetsloot | " + (n(somtodayversion) ? 'Onbekende versie' : 'Versie ' + somtodayversion) + " van Somtoday | Versie " + version + " van Somtoday Mod " + platform, "color:#0067c2;font-weight:bold;font-family:Arial;font-size:16px;"));
+        setTimeout(console.log.bind(console, "%cTimtoday Mod is geactiveerd!", "color:#0067c2;font-weight:bold;font-family:Arial;font-size:26px;"));
+        setTimeout(console.log.bind(console, "%cGeniet van je betere versie van Timtoday.\n\n | " + (n(somtodayversion) ? 'Onbekende versie' : 'Versie ' + somtodayversion) + " van Somtoday | Versie " + version + " van Somtoday Mod " + platform, "color:#0067c2;font-weight:bold;font-family:Arial;font-size:16px;"));
     }
 
     function editGrades() {
@@ -4833,6 +4833,8 @@ function onload() {
             addTheme('Bergen en ruimte', '1624504', '6489a0', '6489a0', 50, true);
             addTheme('Stad', '2246476', '18202d', '18202d', 25, true);
             addTheme('Weg', '1820563', 'de3c22', 'de3c22', 65, true);
+            addTheme('Tim`s favoriet', '6253916', '27f56c', '13bd4c', 65, true);
+            addTheme('Ball Guys', '34585458', '0d0047', '0d0047', 50, true);
             id('mod-background-preview-image').style.setProperty('filter', getBackgroundFilters(false));
             id('mod-background-preview-video').style.setProperty('filter', getBackgroundFilters(false));
             id('addbackground').addEventListener('input', function () {
@@ -5676,4 +5678,3 @@ function onload() {
         tryRemove(id('transitions-disabled'));
     }, 400);
 }
-
