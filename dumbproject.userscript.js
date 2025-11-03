@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Timtoday Mod
 // @namespace    https://timmah12341.github.io/tim-clicker/
-// @version      5.2
+// @version      0.01
 // @description  Give Timtoday a new look with this script.
 // @author       Tim Finke :3
 // @match        https://*.somtoday.nl/*
@@ -5676,3 +5676,4 @@ function onload() {
         tryRemove(id('transitions-disabled'));
     }, 400);
 }
+
