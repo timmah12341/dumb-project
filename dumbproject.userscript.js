@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Timtoday Mod
 // @namespace    https://timmah12341.github.io/tim-clicker/
-// @version      0.03
+// @version      0.01
 // @description  Give Timtoday a new look with this script.
 // @author       Tim Finke :3
 // @match        https://*.somtoday.nl/*
@@ -4822,7 +4822,7 @@ function onload() {
                 });
             }
             // Add themes
-            // Background images thanks to Pexels: https://www.pexels.com use this template:
+            // Background images thanks to Pexels: https://www.pexels.com use this template: addTheme('TEMPLATE', 'ID', 'COLOUR 1', 'COLOUR 2', TRANSPARENTCY, true);
             addTheme('Standaard', '', '0067c2', 'e69b22', 20, false);
             addTheme('Bergen', '618833', '3b4117', '3b4117', 40, false);
             addTheme('Eiland', '994605', '2a83b1', '2a83b1', 25, false);
@@ -4837,8 +4837,9 @@ function onload() {
             addTheme('Kirby', '28920045', 'fd4ff4', 'fd4ff4', 50, true);
             addTheme('Weg 2.0', '34535324', 'EE8317', 'EE8317', 50, true);
             addTheme('Ski`s', '257961', 'F71111', 'F71111', 50, true);
+            addTheme('Schaken', '277124', 'E8E8E8', '514642', 50, true);
             addTheme('Kerstmis', '34539169', '11F711', 'F71111', 50, true);
-            addTheme('Ball Guys', '34585458', '0d0047', '0d0047', 50, true);
+            addTheme('Ball Guys', 'https://timmah12341.github.io/tim-clicker/BgBg.png', '0d0047', '0d0047', 50, true);
             id('mod-background-preview-image').style.setProperty('filter', getBackgroundFilters(false));
             id('mod-background-preview-video').style.setProperty('filter', getBackgroundFilters(false));
             id('addbackground').addEventListener('input', function () {
