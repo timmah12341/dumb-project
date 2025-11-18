@@ -1,5 +1,6 @@
 # Hoe gebruik je de mod? 
 Download Tampermonkey voor Chrome, Firefox of Edge (https://www.tampermonkey.net/)
+Download the newest release from (https://github.com/timmah12341/dumb-project/releases/tag/MOD)
 Zet Ontwikkelaars modus aan.
 
 Voor Chrome:
