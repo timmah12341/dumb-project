@@ -1020,7 +1020,6 @@ function onload() {
                 tn('body', 0).insertAdjacentHTML('beforeend', logo(null, 'mod-easter-egg-logo mod-add-eventlistener" data-add-event-listener="true', '#0099ff'));
                 for (const element of cn('mod-easter-egg-logo mod-add-eventlistener')) {
                     element.classList.remove('mod-add-eventlistener');
-                    element.addEventListener('click', function () { this.remove(); });
                 }
             });
             id('somtoday-mod-version-easter-egg').classList.add('mod-easter-egg');
